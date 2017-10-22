@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93B549D91F9D0BA6008142C0 /* Supercell-magic-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */; };
 		93C845261F9D07F10091FE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C845251F9D07F10091FE1B /* AppDelegate.swift */; };
 		93C845281F9D07F10091FE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C845271F9D07F10091FE1B /* ViewController.swift */; };
 		93C8452B1F9D07F10091FE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C845291F9D07F10091FE1B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supercell-magic-webfont.ttf"; sourceTree = "<group>"; };
 		93C845221F9D07F10091FE1B /* ClashRoyale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashRoyale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C845251F9D07F10091FE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C845271F9D07F10091FE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				93C845251F9D07F10091FE1B /* AppDelegate.swift */,
 				93C845271F9D07F10091FE1B /* ViewController.swift */,
 				93C845291F9D07F10091FE1B /* Main.storyboard */,
+				93B549D81F9D0B92008142C0 /* Supercell-magic-webfont.ttf */,
 				93C8452F1F9D07F10091FE1B /* Assets.xcassets */,
 				93C845311F9D07F10091FE1B /* LaunchScreen.storyboard */,
 				93C845341F9D07F10091FE1B /* Info.plist */,
@@ -128,6 +131,7 @@
 			files = (
 				93C845331F9D07F10091FE1B /* LaunchScreen.storyboard in Resources */,
 				93C845301F9D07F10091FE1B /* Assets.xcassets in Resources */,
+				93B549D91F9D0BA6008142C0 /* Supercell-magic-webfont.ttf in Resources */,
 				93C8452B1F9D07F10091FE1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
