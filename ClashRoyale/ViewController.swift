@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imagen: UIImageView!
     @IBOutlet weak var nombre: UILabel!
@@ -24,7 +24,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     @IBAction func Agregar(_ sender: UIButton) {
+        let imagePicker = UIImagePickerController()
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+        self.present(imagePicker, animated: true, completion: nil)
     }
     
     @IBAction func Buscar(_ sender: UIButton) {
