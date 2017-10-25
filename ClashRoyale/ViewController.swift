@@ -32,6 +32,22 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.present(imagePicker, animated: true, completion: nil)
     }
     
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let imagen = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            picker.dismiss(animated: true, completion: {
+                self.crearPersonaje(imagen: imagen)
+            })
+        }
+    }
+    
+    func crearPersonaje(imagen : UIImage){
+        
+    }
+    
     @IBAction func Buscar(_ sender: UIButton) {
     }
     
