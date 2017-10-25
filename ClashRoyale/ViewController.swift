@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var imagen: UIImageView!
+    @IBOutlet weak var nombre: UILabel!
+    @IBOutlet weak var descripcion: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
